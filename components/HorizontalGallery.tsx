@@ -45,7 +45,7 @@ const HorizontalGallery: React.FC = () => {
         <div className="sticky top-0 h-screen overflow-hidden flex flex-col justify-center">
 
           {/* Section Header */}
-          <div className="absolute top-10 left-10 md:left-20 z-10 mix-blend-difference pointer-events-none">
+          <div className="absolute top-24 left-10 md:left-20 z-10 mix-blend-difference pointer-events-none">
             <h2 className="text-4xl md:text-6xl font-serif italic mb-2">Our Work</h2>
             <p className="text-xs uppercase tracking-widest opacity-70">Creative Captures for Every Occasion</p>
           </div>
