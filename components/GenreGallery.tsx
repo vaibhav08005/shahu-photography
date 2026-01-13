@@ -42,7 +42,7 @@ const GenreGallery: React.FC<GenreGalleryProps> = ({ category, onClose }) => {
   };
 
   return (
-    <div className={`fixed inset-0 z-[100] bg-[#0a0a0a] transition-opacity duration-500 ease-in-out overflow-hidden ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`fixed inset-0 z-[300] bg-[#0a0a0a] transition-opacity duration-500 ease-in-out overflow-hidden ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
 
       {/* Navigation / Header */}
       <div className="absolute top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-[250] bg-gradient-to-b from-black/90 to-transparent">
