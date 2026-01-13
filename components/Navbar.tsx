@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 w-full z-50 px-6 py-6 transition-all duration-500 flex justify-between items-center ${scrolled ? 'backdrop-blur-md bg-black/20' : ''}`}>
+      <nav className={`fixed top-0 left-0 w-full z-[200] px-6 py-6 transition-all duration-500 flex justify-between items-center ${scrolled ? 'backdrop-blur-md bg-black/20' : ''}`}>
         <a href="#home" className="text-2xl font-serif italic font-bold tracking-tighter hover-trigger cursor-pointer z-50">
           Shahu Photography
         </a>
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
       </nav>
 
       {/* Full Screen Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#0f0f0f] z-40 transition-transform duration-[800ms] cubic-bezier(0.77, 0, 0.175, 1) ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+      <div className={`fixed inset-0 bg-[#0f0f0f] z-[150] transition-transform duration-[800ms] cubic-bezier(0.77, 0, 0.175, 1) ${isOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="h-full flex flex-col justify-center items-center">
           <ul className="text-center space-y-8">
             {[
